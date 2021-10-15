@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rbt-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/RBT/RBTWebPart.js",
+          "manifest": "./src/webparts/RBT/RBTWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RBTWebPartStrings": "lib/webparts/RBT/loc/{locale}.js"
+  }
+}
